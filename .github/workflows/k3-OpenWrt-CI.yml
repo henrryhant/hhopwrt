@@ -10,11 +10,11 @@
 name: k3-OpenWrt-CI
 
 on:
-  push:
-    branches: 
-      - master
-  # schedule:
-  #   - cron: 0 20 * * *
+  #push:
+  #  branches: 
+  #    - master
+   schedule:
+     - cron: 0 10 10,25 * *
   # release:
   #   types: [published]
 
